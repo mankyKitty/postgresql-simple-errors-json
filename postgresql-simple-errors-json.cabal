@@ -3,7 +3,7 @@
 
 name:                postgresql-simple-errors-json
 version:             0.1.0.0
-synopsis:            Aeson and JSONSchema instances for postgresql-simple errors
+synopsis:            Aeson and JSONSchema instances for postgresql-simple errors. *NB: Orphan Instances*
 -- description:         
 license:             BSD3
 license-file:        LICENSE
@@ -25,4 +25,5 @@ library
                      , json-schema
                      , text
   hs-source-dirs:      src
+  ghc-options:         -Wall -Werror
   default-language:    Haskell2010

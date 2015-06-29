@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -fno-warn-orphans   #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
 module Database.PostgreSQL.Simple.JSON.Errors where
@@ -22,7 +23,7 @@ import           Text.Show                        (show)
 
 import           GHC.Real                         (fromIntegral)
 
-import           Database.PostgreSQL.Simple       (ExecStatus (..), Query (..),
+import           Database.PostgreSQL.Simple       (ExecStatus (..), Query,
                                                    QueryError (..),
                                                    ResultError (..),
                                                    SqlError (..))
