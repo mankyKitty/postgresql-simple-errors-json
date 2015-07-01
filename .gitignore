@@ -13,3 +13,6 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+
+# Nix ignores
+result
